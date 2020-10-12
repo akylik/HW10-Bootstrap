@@ -89,3 +89,22 @@ h6 {
    position: relative;
    border-radius: 50%;
 }
+
+.img-fluid_2 {
+   height: auto;
+   min-width: 100%;
+}
+
+@media only screen and (max-width: 770px) {
+   .form1 {
+      display: none;
+   }
+   .form3 {
+      min-width: 65%
+   }
+}
+@media only screen and (max-width: 400px) {
+ .small {
+   margin-right: 0.5rem;
+ }
+}
